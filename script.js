@@ -17,6 +17,7 @@ function compute()
         document.getElementById("result").innerHTML=result; // input the information in the span result
     }else{
         alert("Amount is empty, negative or equal 0");
+        document.getElementById("principal").focus();
     }
     
 }
